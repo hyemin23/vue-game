@@ -1,10 +1,10 @@
 <template>
-  <table-component v-bind="tableData"/>
+  <table-component :tableData="tableData"/>
 </template>
 
 <script>
 import TableComponent from "./TableComponent"
-import TableComponent from './TableComponent.vue'
+
 export default {
   components: {
        TableComponent 
@@ -21,5 +21,14 @@ export default {
 </script>
 
 <style>
-
+    table {
+        border-collapse: collapse;
+        }
+    td{
+        border : 1px solid black;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        
+    }
 </style>
