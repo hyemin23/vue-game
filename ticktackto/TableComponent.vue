@@ -1,7 +1,6 @@
 <template>
 <table>
   <tr-component v-for="rowData,index in tableData" :row-data="rowData" v-bind:key="index">
-
   </tr-component>
   </table>
 </template>

@@ -11,6 +11,11 @@
 import TdComponent from "./TdComponent.vue"
 
 export default {
+    data(){
+        return {
+            parent : '내가 니 애비다'
+        }
+    },
     components:{
         TdComponent
     },
